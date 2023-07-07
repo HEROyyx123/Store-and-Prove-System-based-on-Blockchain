@@ -1,4 +1,4 @@
-# Teaching-Store-and-Prove-System-based-on-Blockchain
+# Store-and-Prove-System-based-on-Blockchain
 
 ## 项目依赖安装MetaMask插件
 
