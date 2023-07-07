@@ -1,0 +1,113 @@
+[{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	}, {
+		"inputs": [{
+			"internalType": "address",
+			"name": "_address",
+			"type": "address"
+		}],
+		"name": "addAuthorized",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}, {
+		"inputs": [{
+			"internalType": "bytes32",
+			"name": "_hash",
+			"type": "bytes32"
+		}],
+		"name": "addHash",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}, {
+		"inputs": [{
+			"internalType": "bytes32[]",
+			"name": "_hashes",
+			"type": "bytes32[]"
+		}],
+		"name": "addHashes",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}, {
+		"inputs": [],
+		"name": "getAllHashes",
+		"outputs": [{
+			"internalType": "bytes32[]",
+			"name": "",
+			"type": "bytes32[]"
+		}],
+		"stateMutability": "view",
+		"type": "function"
+	}, {
+		"inputs": [{
+			"internalType": "address",
+			"name": "_address",
+			"type": "address"
+		}],
+		"name": "isOwner",
+		"outputs": [{
+			"internalType": "bool",
+			"name": "",
+			"type": "bool"
+		}],
+		"stateMutability": "view",
+		"type": "function"
+	}, {
+		"inputs": [],
+		"name": "owner",
+		"outputs": [{
+			"internalType": "address",
+			"name": "",
+			"type": "address"
+		}],
+		"stateMutability": "view",
+		"type": "function"
+	}, {
+		"inputs": [{
+			"internalType": "address",
+			"name": "_address",
+			"type": "address"
+		}],
+		"name": "removeAuthorized",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}, {
+		"inputs": [],
+		"name": "safe_destroy",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}, {
+		"inputs": [{
+			"internalType": "bytes32",
+			"name": "hashToVerify",
+			"type": "bytes32"
+		}],
+		"name": "verifyHash",
+		"outputs": [{
+			"internalType": "bool",
+			"name": "",
+			"type": "bool"
+		}],
+		"stateMutability": "view",
+		"type": "function"
+	}, {
+		"inputs": [{
+			"internalType": "bytes32[]",
+			"name": "hashesToVerify",
+			"type": "bytes32[]"
+		}],
+		"name": "verifyHashes",
+		"outputs": [{
+			"internalType": "bool[]",
+			"name": "",
+			"type": "bool[]"
+		}],
+		"stateMutability": "view",
+		"type": "function"
+	}]
