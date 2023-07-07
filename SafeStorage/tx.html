@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>区块链合约交互浏览器</title>
+    <meta charset="UTF-8">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+		div {
+			text-align: center;
+			margin: 0 auto;
+			width: 600px;
+			background-color: #fff;
+		}
+		button {
+			padding: 10px;
+			font-size: 16px;
+			margin-top: 10px;
+			margin-bottom: 20px;
+			border: none;
+			background-color: #007acc;
+			color: #fff;
+			cursor: pointer;
+		}
+    </style>
+</head>
+<body>
+	<div>
+	<h1>区块链合约交互浏览器</h1>
+	</div>
+    <table>
+        <thead>
+            <tr>
+                <th>TxHash</th>
+                <th>From</th>
+				<th>Role</th>
+				<th>MethodId</th>
+				<th>FunctionName</th>
+				<th>TimeStamp</th>
+				<th>BlockNumber</th>
+            </tr>
+        </thead>
+        <tbody id="txListBody">
+        </tbody>
+    </table>
+	<div>
+	  <button onClick="location.href='index.html'">返回</button>
+	</div>
+	<script src="tx.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+	<script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js"></script>
+</body>
+</html>
